@@ -119,9 +119,11 @@ main {
         /* height: 100%; */
         /* margin: 10px; */
     }
-    .faq {
+    .faq-header {
         font-weight: 700;
         color: hsl(238, 29%, 16%);
+        margin-top: 65px;
+        margin-bottom: 20px;
     }
     /*----------------------------
             Accordion
