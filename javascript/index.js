@@ -15,12 +15,9 @@ window.addEventListener("load", function() {
             
             // Boolean flag: If the the clicked Element contains "active" in its class, it sets the active to true
             let active = this.classList.contains("active");
-            console.log("active", active);
 
             // Saves the clicked element's next sibling ("answer element") to the 'answer' variable
             let answer = this.nextElementSibling;
-
-            console.log(...questions);
 
             // Loops through the array which contains all HTML elements with class "question"
             [...questions].forEach(function(item) {
